@@ -1,23 +1,10 @@
-**Smart Tourist Safety Platform**
+Smart Tourist Safety Platform
 
-
-
-**Overview**
-
-
-
+Overview
 Smart Tourist Safety Platform is a full-stack web application designed to improve tourist safety by providing emergency assistance, location tracking, safety monitoring, and AI-based support.
-
-
-
 The platform connects tourists, tour guides, and authorities to help make travel safer and more reliable.
 
-
-
-**Features**
-
-
-
+Features
 \- User authentication and authorization
 
 \- Tourist dashboard
@@ -43,12 +30,9 @@ The platform connects tourists, tour guides, and authorities to help make travel
 \- Real-time updates
 
 
+Technology Stack
 
-**Technology Stack**
-
-
-
-**Frontend**
+Frontend
 
 \- Next.js
 
@@ -59,8 +43,7 @@ The platform connects tourists, tour guides, and authorities to help make travel
 \- Tailwind CSS
 
 
-
-**Backend**
+Backend
 
 \- Java
 
@@ -76,13 +59,12 @@ The platform connects tourists, tour guides, and authorities to help make travel
 
 
 
-**Database**
+Database
 
 \- MySQL
 
 
-
-**Tools**
+Tools
 
 \- Git and GitHub
 
@@ -95,10 +77,7 @@ The platform connects tourists, tour guides, and authorities to help make travel
 \- Postman
 
 
-
-**Project Structure**
-
-
+Project Structure
 
 SmartTouristSafetyPlatform/
 
@@ -122,13 +101,8 @@ SmartTouristSafetyPlatform/
 
 └── README.md
 
-```
 
-
-
-**Prerequisites**
-
-
+Prerequisites
 
 \- Java JDK
 
@@ -139,51 +113,32 @@ SmartTouristSafetyPlatform/
 \- Git
 
 
+Setup and Installation
 
-**Setup and Installation**
-
-
-
-**1. Clone the Repository**
-
-
-
+1. Clone the Repository
 git clone https://github.com/janvikhonde/SmartTouristSafetyPlatform.git
 
 cd SmartTouristSafetyPlatform
 
 
-
-**2. Create the Database**
-
-
+2. Create the Database
 
 CREATE DATABASE safetrail\_db;
-
-
 
 Configure your database username and password in your local backend configuration file. Do not upload credentials to GitHub.
 
 
-
-**3. Run the Backend**
-
-
+3. Run the Backend
 
 cd backend
 
 mvnw.cmd spring-boot:run
 
-
-
 Backend URL: `http://localhost:8080`
 
 
-
-**4. Run the Frontend**
-
-
-
+4. Run the Frontend
+5. 
 Open another terminal:
 
 cd frontend
@@ -196,43 +151,33 @@ npm run dev
 
 Frontend URL: `http://localhost:3000`
 
-
-
-**Application Architecture**
-
-
+Application Architecture
 
 Tourists / Tour Guides / Authorities
 
-&#x20;                 |
+               |
+               v
 
-&#x20;                 v
+        Next.js Frontend
 
-&#x20;         Next.js Frontend
+           Port 3000
 
-&#x20;            Port 3000
+               |
 
-&#x20;                 |
+               v
 
-&#x20;                 v
+         Spring Boot Backend
 
-&#x20;         Spring Boot Backend
+             Port 8080
 
-&#x20;            Port 8080
+               |
 
-&#x20;                 |
+               v
 
-&#x20;                 v
-
-&#x20;             MySQL
-
+             MySQL
 
 
-
-
-**Purpose**
-
-
+Purpose
 
 The main objective of this project is to provide a technology-based solution for tourist safety through emergency response, location-based services, real-time monitoring, and intelligent assistance.
 
